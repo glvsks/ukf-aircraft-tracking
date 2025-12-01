@@ -8,6 +8,11 @@ Personal ML/estimation project exploring Kalman filtering techniques for nonline
 Implemented and compared two nonlinear state estimation algorithms — **Unscented Kalman Filter (UKF)** and its **square-root variant (UKF-SQRT)** — for tracking a 3D aircraft trajectory under noisy, nonlinear dynamics.  
 This project bridges classical estimation theory and modern machine learning by demonstrating how Kalman filters serve as probabilistic models for hidden-state tracking in systems like robotics, sensor fusion, and time-series prediction.
 
+## Tech Stack
+
+* **Python 3.10+**
+* `numpy`, `matplotlib`, `scipy`, `pandas`
+* `filterpy` for Kalman filter implementation
 
 ## Project Overview
 
@@ -131,13 +136,6 @@ Through this project, I practiced:
 * Visualizing multidimensional state and error trajectories in Matplotlib
 * Analyzing Monte Carlo simulation results (RMSE, standard deviations, divergence)
 * Working with `filterpy` and continuous–discrete system modeling
-
-
-## Tech Stack
-
-* **Python 3.10+**
-* `numpy`, `matplotlib`, `scipy`, `pandas`
-* `filterpy` for Kalman filter implementation
 
 ## References 
 * Ienkaran Arasaratnam, Simon Haykin, and Thomas R. Hurd. "Cubature Kalman Filtering for Continuous-Discrete Systems: Theory and Simulations." IEEE Transactions on Automatic Control, Vol. 54, No. 6, June 2009.
