@@ -144,7 +144,7 @@ Through this project, I practiced:
 
 ##  Author
 
-**Sofya Gulevskaya**  
+**Sofia Gulevskaia**  
 [https://github.com/glvsks](https://github.com/glvsks)
 
 
